@@ -1,0 +1,74 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    
+}
+.container-about{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    margin-left: 100px;
+    flex-direction: column;
+    color: whitesmoke;
+}
+#hi{
+    margin-top: 100px;
+    font-family: 'Roboto Mono', monospace;
+    background-color:white;
+    padding: 10px;
+    color:black;
+    width: 140px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#doungnapat{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 8px;
+    width: 50%;
+}
+#edu{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    width:50%;
+}
+#about-me{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 50%;
+}
+a.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+    /* font-weight: 700; */
+    font-size: 20px;
+    letter-spacing: 4px;
+    background-image: -webkit-linear-gradient(45deg,rgb(197, 255, 197), rgb(150, 236, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.navbar{
+    background-color: black;
+}
+.nav-item:hover{
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: 0.3s;
+    background-image: -webkit-linear-gradient(45deg,rgb(197, 255, 197), rgb(150, 236, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#linkedin{
+    text-decoration: none;
+    color:inherit;
+}
+

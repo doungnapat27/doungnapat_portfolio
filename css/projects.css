@@ -1,0 +1,62 @@
+.container-pj{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+#projects{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-weight: 600;
+    background-image: -webkit-linear-gradient(45deg,rgb(197, 255, 197), rgb(150, 236, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#projects:hover{
+    /* letter-spacing: 10px; */
+    text-decoration: underline white;
+    transition: 0.3s;
+}
+img.container-pj{
+    height: 200px;
+}
+img.container-pj:hover{
+    height: 250px;
+    transition: all 0.3 ease;
+}
+#pj-title{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    padding:20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#year{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-weight: 600;
+}
+.btn , #pj-detail, #pj-tsk{
+    font-family: 'Roboto Mono', monospace;
+}
+#pj-tsk span, #duration, #job{
+    /* margin-top: 20px; */
+    /* padding: 10px; */
+    font-weight: 600;
+    letter-spacing: 4px;
+    background-image: -webkit-linear-gradient(45deg,rgb(197, 255, 197), rgb(150, 236, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#pj-detail{
+    padding: 10px;
+    width:40%;
+}
